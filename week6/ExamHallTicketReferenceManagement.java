@@ -1,11 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M4: Exam Hall Ticket Reference Management
- * 
- * Scenario:
- * Demonstrate object references vs separate object instantiation using == operator.
- */
 public class ExamHallTicketReferenceManagement {
 
     public static class HallTicket {
@@ -30,3 +24,4 @@ public class ExamHallTicketReferenceManagement {
         System.out.println("separate == priya: " + (separate == priya));
     }
 }
+

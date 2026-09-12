@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M1: Library Inventory Management
- * 
- * Scenario:
- * The library currently tracks its book inventory using three parallel arrays — titles, authors,
- * copiesAvailable — and a recount last week already went out of sync. Rebuild it the OOP way.
- */
 public class LibraryInventoryManagement {
 
     public static class BookInventory {
@@ -38,3 +31,4 @@ public class LibraryInventoryManagement {
         }
     }
 }
+

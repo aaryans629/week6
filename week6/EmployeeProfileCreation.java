@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M3: Employee Profile Creation
- * 
- * Scenario:
- * Support both permanent employees and interns without writing setup logic twice
- * using constructor chaining this(...).
- */
 public class EmployeeProfileCreation {
 
     public static class Employee {
@@ -40,3 +33,4 @@ public class EmployeeProfileCreation {
         e2.printProfile();
     }
 }
+

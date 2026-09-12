@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M2: Payroll Salary Management
- * 
- * Scenario:
- * A company's payroll account must never let its net salary be set directly from outside the class,
- * and bonuses must never be negative.
- */
 public class PayrollSalaryManagement {
 
     public static class PayrollAccount {
@@ -54,3 +47,4 @@ public class PayrollSalaryManagement {
         System.out.printf("Net salary: Rs %.1f%n", account.getNetSalary());
     }
 }
+

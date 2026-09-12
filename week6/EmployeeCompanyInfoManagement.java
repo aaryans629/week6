@@ -1,11 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M5: Employee and Company Information Management
- * 
- * Scenario:
- * Demonstrate static fields companyName and employeeCount shared across Employee instances.
- */
 public class EmployeeCompanyInfoManagement {
 
     public static class Employee {
@@ -34,3 +28,4 @@ public class EmployeeCompanyInfoManagement {
         Employee.printCompanyInfo();
     }
 }
+
