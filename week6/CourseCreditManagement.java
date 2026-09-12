@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M3: Course Credit Management
- * 
- * Scenario:
- * Some courses come with a separate lab component and lab credit count; most don't.
- * Support both without writing the same setup logic twice.
- */
 public class CourseCreditManagement {
 
     public static class Course {
@@ -23,7 +16,7 @@ public class CourseCreditManagement {
         }
 
         public Course(String code, String title, int credits) {
-            this(code, title, credits, 0); // Constructor chaining
+            this(code, title, credits, 0);
         }
 
         public int totalCredits() {
@@ -43,3 +36,4 @@ public class CourseCreditManagement {
         System.out.println(c2.getCode() + " total credits: " + c2.totalCredits());
     }
 }
+

@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M2: Hostel Mess Wallet Management
- * 
- * Scenario:
- * A hostel mess-card top-up wallet must never be allowed to go negative, and its balance
- * must never be overwritten directly from outside the class.
- */
 public class HostelMessWalletManagement {
 
     public static class MessWallet {
@@ -51,3 +44,4 @@ public class HostelMessWalletManagement {
         System.out.println("Final balance: " + wallet.getBalance());
     }
 }
+

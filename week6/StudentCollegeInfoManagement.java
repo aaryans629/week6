@@ -1,11 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M5: Student and College Information Management
- * 
- * Scenario:
- * Fix design where static collegeName and studentCount should be shared across all students.
- */
 public class StudentCollegeInfoManagement {
 
     public static class Student {
@@ -33,3 +27,4 @@ public class StudentCollegeInfoManagement {
         Student.printCollegeInfo();
     }
 }
+

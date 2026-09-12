@@ -1,12 +1,5 @@
 package week6;
 
-/**
- * Category C Problem M1: Student Placement Record Management
- * 
- * Scenario:
- * The T&P cell currently tracks student placements using three parallel arrays — names, companies,
- * packages — and it has already gone out of sync twice this month. Rebuild it the OOP way.
- */
 public class StudentPlacementRecordManagement {
 
     public static class PlacementRecord {
@@ -37,3 +30,4 @@ public class StudentPlacementRecordManagement {
         }
     }
 }
+
